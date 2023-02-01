@@ -1,0 +1,38 @@
+.topcontent {
+    color: white;
+    /* border: 5px solid yellow; */
+}
+.topcontent__container {
+    position: absolute;
+    top:450px;
+    right:100px;
+}
+.topcontent__container>p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+.topcontent__downloadbutton {
+    color: white;
+    margin-left:0px ;
+    padding: 8px;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: orangered;
+    letter-spacing: 1.5px;
+
+}
+.topcontent__myworkbutton {
+    color: white;
+    margin-left: 20px;
+    padding: 8px;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: orangered;
+    letter-spacing: 1.5px;
+}

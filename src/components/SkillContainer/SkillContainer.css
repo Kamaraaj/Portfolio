@@ -1,0 +1,57 @@
+.skillcontainer {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:200px;
+    height: 100vh;
+}
+.skillcontainer__image {
+    flex: 0.4;
+    text-align: left;
+    margin-right: 100px;
+}
+.skillcontainer__image > img {
+    width: 600px;
+    border-radius: 5px;
+    object-fit: contain;
+}
+.skillcontainer__text {
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skillcontainer__skillset {
+    font-size: 23px;
+}
+
+.skillcontainer__skillset > h5 {
+    cursor:context-menu;
+}
+.skillcontainer__text > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+    
+}
+.skillcontainer__slider {
+    margin: 20px 0px;
+}
+ 
+
+.skillcontainer__slider1 >span > .MuiLinearProgress-barColorPrimary {
+    background-color:chartreuse;
+}
+
+.skillcontainer__slider2 >span > .MuiLinearProgress-barColorPrimary {
+    background-color:aqua;
+}
+
+.skillcontainer__slider3 >span > .MuiLinearProgress-barColorPrimary {
+    background-color:gold;
+}
+
+.skillcontainer__slider4 >span > .MuiLinearProgress-barColorPrimary {
+    background-color:green;
+}

@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+.project {
+    margin: 15px;
+    width: 350px;
+    height: 180px;
+    transition:transform 100ms ease-in;
+}
+.project> img {
+    width: 350px;
+    height: 180px;
+}
+.project:hover {
+    background-color:orangered;
+    color: white;
+    transform: scale(1.04);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;    
+}
+.project__content {
+padding: 10px;
+}
+.project__content > h4{
+padding-bottom: 5px;
+font-size: 18px;
+text-transform:uppercase;
+}

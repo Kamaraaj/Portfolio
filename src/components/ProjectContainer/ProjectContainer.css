@@ -1,0 +1,22 @@
+.projectcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:200px 0px ;
+    height: 100vh;
+}
+.projectcontainer> h2{
+    padding: 15px;
+}
+.projectcontainer> p{
+    padding: 20px;
+}
+.projectcontainer__projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0.6;
+}
+
